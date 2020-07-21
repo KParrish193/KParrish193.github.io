@@ -18,6 +18,8 @@ export const Nav = styled.div`
         @media(max-width: 1100px) {
             width: 350px;
         }
+
+        
     }
 
     @media(max-width: 950px) {
@@ -73,14 +75,14 @@ export const Gif = styled.img`
     height: 250px;
     width: 500px;
 
-    @media(max-width: 1100px) {
+    @media(max-width: 1700px) {
         height: 200px;
-        width: 450px;
+        width: 400px;
     }
 
-    @media(max-width: 500px) {
+    @media(max-width: 1000px) {
         height: 150px;
-        width: 400px;
+        width: 300px;
     }
 `
 
@@ -92,11 +94,30 @@ export const HeroContainer = styled.div`
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
     @media (max-width: 700px){
         height: 60vh;
     }
 }
+`
+
+export const Scroll = styled.img`
+    width: 100px;
+    opacity: 0.3;
+
+    @media (max-width: 600px) {
+        display: none;
+    }
+`
+
+export const ScrollDiv = styled.div`
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
 `
 
 export const Contact = styled.div`
@@ -113,6 +134,7 @@ export const Contact = styled.div`
     div {
         font-family: 'Permanent Marker', cursive;
         font-size: 1.6rem;
+        letter-spacing: .12rem;
         padding: .5rem 2rem;
 
         @media(max-width: 850px) {
@@ -130,6 +152,7 @@ export const Contact = styled.div`
         align-items: center;
         text-decoration: none;
         color: #272C33;
+        min-width: 350px;
 
         :hover {
             color: #D5D5D5;
@@ -166,11 +189,6 @@ export const Medium = styled.img`
     }
 `
 
-export const Scroll = styled.img`
-    width: 100px;
-    // opacity: 0.1;
-`
-
 export const AboutMe = styled.div`
     div {
         display: flex;
@@ -187,6 +205,7 @@ export const AboutMe = styled.div`
             flex-direction: column;
             padding: 1rem 2.1rem;
             width: 60%;
+            letter-spacing: .12rem;
 
             @media(max-width: 800px ){
                 width: 90%;
@@ -236,14 +255,33 @@ export const GitHub = styled.img`
     height: 35px;
 ` 
 
-export const SkillsContainer = styled.div`
+export const SkillsContentContainer = styled.div`
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
+    background-color: #d9d9d9;
+`
+
+export const SkillsContainer = styled.div`
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2.5rem;
+    background-color: #272c33;
+
+    h2 {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 4rem;
+        letter-spacing: .7rem;
+        margin: 0;
+        padding: 1rem 2rem;
+        width: 100%;
+        background-color: #272c33;
+        color: #d6d6d6;
+        text-align: left;
+    }
 `
 
 export const SkillsImgContainer = styled.div`
@@ -252,23 +290,18 @@ export const SkillsImgContainer = styled.div`
     justify-content: space-around;
     align-items: center;
     padding: .75rem 0 1rem 0;
+    width: 75%;
 `
 
 export const SkillsCard = styled.div`
-    border: black solid 1px;
-    width: 45%;
-    height: 350px;
+    width: 33%;
     margin: 1rem 0;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     min-width: 240px;
-
-    div.text {
-        border: orange 2px solid;
-        background-color: #292C34;
-        width: 100%;
-    }
+    background-color: #d9d9d9;
 
     h3 {
         font-family: 'Permanent Marker', cursive;

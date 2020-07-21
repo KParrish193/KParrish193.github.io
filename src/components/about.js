@@ -5,10 +5,10 @@ import phone from '../assets/icons/contact/call.png'
 import mail from '../assets/icons/contact/mail.png'
 import linkedin from '../assets/icons/contact/linkedin.png'
 
-import scroll from '../assets/scrolly.gif'
+import scroll from '../assets/scroll.gif'
 import medium from '../assets/medium.jpg'
 
-import { HeroContainer, GitHub, Contact, AboutMe, Medium, Scroll } from '../styles/index' 
+import { HeroContainer, GitHub, Contact, AboutMe, Medium, Scroll, ScrollDiv } from '../styles/index' 
 
 function Landing() {
     return (
@@ -44,7 +44,9 @@ function Landing() {
                 </a>
                 </div>
             </Contact>
-            <Scroll src={scroll} alt='animated arrows pointing down to scroll'/>
+            <ScrollDiv>
+                <Scroll src={scroll} alt='animated arrows pointing down to scroll'/>
+            </ScrollDiv>
         </HeroContainer>
         <AboutMe>
             <h3>
@@ -57,8 +59,8 @@ function Landing() {
                 I recently completed the Full Stack Web curriculum at Lambda School, and have a Bachelor's degree in Marketing with a Chemistry minor.
                 </p>
                 <p>
-                Emphasizing positive user experiences in front-end web design is where I do my best work. 
-                Other experience includes a demonstrated history of customer service and teamwork working in the retail industry.
+                Emphasizing positive user experiences in front-end web design is where I do my best work. I don't believe an app or website should be considered "done" until all users can have a great experience with it.
+                Other experience includes a demonstrated history of customer service, attention to detail, and teamwork working in the retail industry.
                 </p>
                 <p>
                 When I'm not coding aesthetically pleasing and design forward front-ends, I can be found mountain biking through the Uintas, climbing at the rock wall, on a calm lake paddleboarding with my pitbull, Tallahassee, cuddling my two cats, or hip checking my friends and foes at the Derby Depot in Salt Lake City, Utah.
