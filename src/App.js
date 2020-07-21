@@ -1,13 +1,12 @@
 import React from 'react';
 
-import gif from './assets/blue.gif';
+import gif from './assets/neon.gif';
 
 import { Nav, Gif } from './styles/index' 
 import { Route, Link, NavLink } from 'react-router-dom';
-import Landing from './components/landing';
+import About from './components/about';
 import Projects from './components/projects';
 import Skills from './components/skills';
-import Contact from './components/contact';
 import './App.css';
 
 function App() {
@@ -25,50 +24,35 @@ function App() {
                     className="left"
                     activeStyle={{
                         fontWeight: "bold",
-                        color: "#FA8B37",
+                        color: "#C0A887",
+                        borderBottom: "2px solid #d9d9d9"
                     }}
                     > 
                         Projects 
                 </NavLink>
 
-                <NavLink 
-                    to="skills" 
-                    className="left"
-                    activeStyle={{
-                        fontWeight: "bold",
-                        color: "#FA8B37",}}> 
-                    Skills 
-                </NavLink>
                 <Link className="home" to="/">
                     <Gif src={gif} alt="logo" />
-                </Link>
+                </Link>  
+
                 <NavLink 
-                    to="/about" 
+                    to="skills" 
                     className="right"
                     activeStyle={{
                         fontWeight: "bold",
-                        color: "#FA8B37",}}> 
-                    About 
+                        color: "#C0A887",
+                        borderBottom: "2px solid #d9d9d9"
+                    }}> 
+                    Skills 
                 </NavLink>
-                
-                <NavLink 
-                    to="/contact" 
-                    className="right"
-                    activeStyle={{
-                        fontWeight: "bold",
-                        color: "#FA8B37",}}> 
-                    Contact 
-                </NavLink>
-        
             </Nav>
         </header>
 
-      <div>
-        <Route exact path="/" component={Landing} />
+    <div>
+        <Route exact path="/" component={About} />
         <Route path="/projects" component={Projects} />
         <Route path="/skills" component={Skills} />
-        <Route path="/contact" component={Contact} />
-      </div>
+    </div>
     </div>
   );
 }

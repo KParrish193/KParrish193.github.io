@@ -16,7 +16,7 @@ function Skills(){
             <SkillsCard>
                 <h3>HTML</h3>
                 <SkillsImgContainer>
-                <img src={html} />
+                <img src={html} alt="html logo" />
                 </SkillsImgContainer>
                 <div className="text">
                 <p>HTML</p>
@@ -26,7 +26,7 @@ function Skills(){
             <SkillsCard>
                 <h3>CSS</h3>
                 <SkillsImgContainer>
-                <img src={css} />
+                <img src={css} alt="css logo"/>
                 </SkillsImgContainer>
                 <div className="text">
                 <p>HTML</p>
@@ -36,7 +36,7 @@ function Skills(){
             <SkillsCard>
                 <h3>Javascript</h3>
                 <SkillsImgContainer>
-                <img src={js} />
+                <img src={js} alt="javascript logo" />
                 </SkillsImgContainer>
                 <div className="text">
                 <p>HTML</p>
@@ -46,7 +46,7 @@ function Skills(){
             <SkillsCard>
                 <h3>React</h3>
                 <SkillsImgContainer>
-                <img src={react} />
+                <img src={react} alt="react logo" />
                 </SkillsImgContainer>
                 <div className="text">
                 <p>HTML</p>
@@ -56,7 +56,7 @@ function Skills(){
             <SkillsCard>
                 <h3>Python</h3>
                 <SkillsImgContainer>
-                    <img src={python} />
+                    <img src={python} alt="python logo"/>
                 </SkillsImgContainer>
                 <div className="text">
                 <p>HTML</p>
@@ -66,11 +66,11 @@ function Skills(){
             <SkillsCard>
                 <h3>Remote Work</h3>
                 <SkillsImgContainer>
-                    <img src={slack} />
-                    <img src={zoom} />
+                    <img src={slack} alt="slack logo"/>
+                    <img src={zoom} alt="zoom logo"/>
                 </SkillsImgContainer>
                 <div className="text">
-                <p>lorem loremlorem</p>
+                <p>lorem lorem lorem</p>
                 </div>
             </SkillsCard>
         </SkillsContainer>
