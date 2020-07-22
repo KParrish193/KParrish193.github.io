@@ -18,8 +18,6 @@ export const Nav = styled.div`
         @media(max-width: 1100px) {
             width: 350px;
         }
-
-        
     }
 
     @media(max-width: 950px) {
@@ -90,6 +88,7 @@ export const HeroContainer = styled.div`
     background-image: url("${hero}");
     background-color: #7aa4c6;
     height: 70vh;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -123,7 +122,7 @@ export const ScrollDiv = styled.div`
 export const Contact = styled.div`
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 60%;
     min-width: 250px;
     padding-top: 2rem;
 
@@ -136,6 +135,7 @@ export const Contact = styled.div`
         font-size: 1.6rem;
         letter-spacing: .12rem;
         padding: .5rem 2rem;
+        width: 100%;
 
         @media(max-width: 850px) {
             padding: .5rem 0;
@@ -152,7 +152,6 @@ export const Contact = styled.div`
         align-items: center;
         text-decoration: none;
         color: #272C33;
-        min-width: 350px;
 
         :hover {
             color: #D5D5D5;
@@ -166,7 +165,6 @@ export const Contact = styled.div`
         align-items: center;
         margin: 0;
         color: #272C33;
-        min-width: 300px;
     }
     
     img {
@@ -185,7 +183,6 @@ export const Medium = styled.img`
         width: 300px;
         height: 300px;
         margin: 1rem 0 3.5rem;
-        margin-right: 0;
     }
 `
 
@@ -217,7 +214,7 @@ export const AboutMe = styled.div`
         
                 @media(max-width: 600px) {
                     font-size: 1.3rem;
-                    padding: 0 1rem;
+                    // padding: 0 1rem;
                 }
             }
         }
@@ -235,19 +232,60 @@ export const AboutMe = styled.div`
     }
 `
 
+export const ProjectCardContainer = styled.div`
+    padding: 0;
+    margin: 0;
+
+    p {
+        font-family: 'Permanent Marker', cursive;
+        font-size: 1.6rem;
+        letter-spacing: .12rem;
+        color: #292C34;
+    }
+`
+
 export const ProjectCard = styled.div`
-    border: solid 1px black;
+    background-color: #d9d9d9;
 
     h3 {
         font-family: 'Permanent Marker', cursive;
-        font-size: 2.1rem;
+        font-size: .1rem;
         letter-spacing: .3rem;
         color: #292C34;
+        padding: 0;
+        margin: 0;
+    }
+
+    h4 {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 2rem;
+        letter-spacing: .2rem;
+        color: #C0A887;
+    }
+
+    h5 {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 1.8rem;
+        letter-spacing: .2rem;
+        
     }
 
     img.project {
         height: 200px;
         border-radius: 150px;
+    }
+
+    .bulletpoints {
+        text-align: left;
+        font-size: 1.3rem;
+        padding: 0 0 .2rem 0 ;
+        margin: 0;
+        width: 60%;
+    }
+
+    a {
+        text-decoration: none;
+        color: #292C34
     }
 `
 
@@ -273,11 +311,9 @@ export const SkillsContainer = styled.div`
 
     h2 {
         font-family: 'Bebas Neue', cursive;
-        font-size: 4rem;
+        font-size: 4.5rem;
         letter-spacing: .7rem;
-        margin: 0;
-        padding: 1rem 2rem;
-        width: 100%;
+        margin: 1rem 3rem;
         background-color: #272c33;
         color: #d6d6d6;
         text-align: left;
@@ -289,7 +325,7 @@ export const SkillsImgContainer = styled.div`
     width: 30%;
     justify-content: space-around;
     align-items: center;
-    padding: .75rem 0 1rem 0;
+    margin: .75rem 0 1rem 0;
     width: 75%;
 `
 

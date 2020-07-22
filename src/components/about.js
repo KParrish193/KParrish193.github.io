@@ -17,14 +17,14 @@ function Landing() {
         <HeroContainer>
             <Contact>
                 <div>
-                <a href="https://github.com/KParrish193">
+                <a href="https://github.com/KParrish193" target="blank">
                 <GitHub src={github} alt="github logo"/>
                 github.com/KParrish193
                 </a>
                 </div>
                 
                 <div>
-                <a href="https://www.linkedin.com/in/parrishkristin/">
+                <a href="https://www.linkedin.com/in/parrishkristin/" target="blank">
                 <GitHub src={linkedin} alt="github logo"/>
                 linkedin.com/in/parrishkristin
                 </a>
