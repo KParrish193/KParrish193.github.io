@@ -20,7 +20,10 @@ function Projects(){
                 Projects
             </h2>
             <ProjectCardContainer>
-            <Accordion>
+            <Accordion
+                style={{
+                    backgroundColor: '#d6d6d6',
+                }}>
                 <AccordionSummary
                 expandIcon={<ExpandMoreIcon />}
                 aria-controls="panel1a-content"
@@ -30,6 +33,8 @@ function Projects(){
                     <h3
                     style={{
                         textAlign: 'left',
+                        padding: '0 1rem',
+                        margin: '0'
                     }}>
                         Art x BLM</h3>
                 </Typography>
@@ -37,11 +42,6 @@ function Projects(){
             <AccordionDetails>
             <ProjectCard>
                 <img className="project" src={artxblm} alt="art x blm logo"/>
-                <p> 
-                    <a href="https://github.com/KParrish193/blm-art-exchange" target="blank">
-                    <GitHub src={github} alt="github logo" />
-                    </a>
-                </p>
                 <h4>
                 HTML | CSS | JavaScript | React | NodeJS | Strapi | Heroku | Stripe
                 </h4>
@@ -51,7 +51,9 @@ function Projects(){
                 <p>
                 App to facilitate a collaborative exchange of art to raise money for anti-racist action
                 </p>
+
                 <div>
+                <div className="bullets">
                 <p className="bulletpoints">
                 • Remotely collaborated with an international team of 2 developers, 1 UX designer, and additional product managers
                 </p>
@@ -62,11 +64,20 @@ function Projects(){
                 • Developed a rich, client-side routed React application with a Node.js SQL database that supports high-resolution image uploads
                 </p>
                 </div>
+                <div className="github">
+                    <a href="https://github.com/KParrish193/blm-art-exchange" target="blank">
+                    <GitHub src={github} alt="github logo" />
+                    </a>
+                </div>
+                </div>
             </ProjectCard>
             </AccordionDetails>
             </Accordion>
 
-            <Accordion>
+            <Accordion
+            style={{
+                backgroundColor: '#d6d6d6',
+            }}>
             <AccordionSummary
                 expandIcon={<ExpandMoreIcon />}
                 aria-controls="panel2a-content"
@@ -82,6 +93,8 @@ function Projects(){
                     <h3 
                     style={{
                         textAlign: 'left',
+                        padding: '0 1rem',
+                        margin: '0'
                     }}>
                         Raheem.ai</h3>
                     </a>
@@ -90,11 +103,6 @@ function Projects(){
             <AccordionDetails>
             <ProjectCard>
                 <img className="project" src={raheem} alt="raheem logo"/>
-                <p> 
-                    <a href="https://github.com/Lambda-School-Labs/raheem.org--fe" target="blank">
-                    <GitHub src={github} alt="github logo" />
-                    </a>
-                </p>
                 <h4>
                 HTML | CSS | JavaScript | React | NodeJS | Victory | Google Firebase | AWS
                 </h4>
@@ -104,7 +112,9 @@ function Projects(){
                 <p>
                 A mobile-forward, independent, online service to help people take action against police violence
                 </p>
+                
                 <div>
+                <div className="bullets">
                 <p className="bulletpoints">
                 • Collaborated with a remote, cross-functional team of 5 developers and 2 UX designers from across the United States
                 </p>
@@ -121,11 +131,20 @@ function Projects(){
                 • Developed lightweight, client-side routed React application with a Firebase NoSQL database
                 </p>
                 </div>
+                <div className="github">
+                    <a href="https://github.com/Lambda-School-Labs/raheem.org--fe" target="blank">
+                    <GitHub src={github} alt="github logo" />
+                    </a>
+                </div>
+                </div>
             </ProjectCard>
             </AccordionDetails>
             </Accordion>
 
-            <Accordion>
+            <Accordion
+            style={{
+                backgroundColor: '#d6d6d6',
+            }}>
             <AccordionSummary
                 expandIcon={<ExpandMoreIcon />}
                 aria-controls="panel3a-content"
@@ -135,6 +154,8 @@ function Projects(){
                 <h3
                 style={{
                     textAlign: 'left',
+                    padding: '0 1rem',
+                    margin: '0'
                 }}>
                     Wasatch Roller Derby Web Store</h3>
                 </Typography>
@@ -142,11 +163,6 @@ function Projects(){
             <AccordionDetails>
             <ProjectCard>
                 <img className="project" src={wrd} alt="wasatch roller derby logo"/>
-                <p> 
-                    <a href="https://github.com/KParrish193/wrd-store" target="blank">
-                    <GitHub src={github} alt="github logo" />
-                    </a>
-                </p>
                 <h4>
                 HTML | CSS | JavaScript | React | NextJS | NodeJS | Strapi | AWS | Stripe
                 </h4>
@@ -156,7 +172,9 @@ function Projects(){
                 <p>
                 A nonprofit organization that strives to promote the sport of roller derby in Salt Lake City, Utah, showcasing the dedication and athleticism of all involved
                 </p>
+
                 <div>
+                <div className="bullets">
                 <p className="bulletpoints">
                 • Designed first iteration of web store to provide Wasatch Roller Derby with alternative income and brand promotion streams
                 </p>
@@ -164,11 +182,20 @@ function Projects(){
                 • Optimized SEO functionality with NextJS, providing 100% improvement into web traffic insight and analysis
                 </p>
                 </div>
+                <div className="github">
+                <a href="https://github.com/KParrish193/wrd-store" target="blank">
+                    <GitHub src={github} alt="github logo" />
+                </a>
+                </div>
+                </div>
             </ProjectCard>
             </AccordionDetails>
             </Accordion>
 
-            <Accordion>
+            <Accordion
+            style={{
+                backgroundColor: '#d6d6d6',
+            }}>
             <AccordionSummary
                 expandIcon={<ExpandMoreIcon />}
                 aria-controls="panel4a-content"
@@ -185,6 +212,8 @@ function Projects(){
                 <h3
                 style={{
                     textAlign: 'left',
+                    padding: '0 1rem',
+                    margin: '0'
                 }}>
                     High-Q</h3>
                 </a>
@@ -193,11 +222,6 @@ function Projects(){
             <AccordionDetails>
             <ProjectCard>
                 <img className="project"src={highQ} alt="high-Q logo"/>
-                <p> 
-                    <a href="https://github.com/med-cabinet-5" target="blank">
-                    <GitHub src={github} alt="github logo" />
-                    </a>
-                </p>
                 <h4>
                 HTML | CSS | JavaScript | React | NodeJS | Strapi | Heroku | Stripe
                 </h4>
@@ -207,7 +231,9 @@ function Projects(){
                 <p>
                 A web app that recommends best-matched cannabis strains to users looking to move away from their dependency on pharmaceuticals
                 </p>
+
                 <div>
+                <div className="bullets">
                 <p className="bulletpoints">
                 • Supervised and assigned daily actionable items to 2 junior devs
                 </p>
@@ -218,11 +244,19 @@ function Projects(){
                 • Released presentation-ready website in 1 week
                 </p>
                 </div>
+                <div className="github">
+                    <a href="https://github.com/med-cabinet-5" target="blank">
+                    <GitHub src={github} alt="github logo" />
+                    </a>
+                </div>
+                </div>
+
                 <p>
                 <a href="https://www.mikioharman.com/2020-02-07-budAPI/" target="blank">
                 Blog about the project by data scientist Mikio Harman
                 </a>
                 </p>
+
             </ProjectCard>
             </AccordionDetails>
             </Accordion>

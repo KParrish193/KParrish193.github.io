@@ -12,7 +12,6 @@ import zoom from '../assets/icons/skills/zoom.png';
 import word from '../assets/icons/skills/word.png';
 import excel from '../assets/icons/skills/excel.png';
 import outlook from '../assets/icons/skills/outlook.png';
-import pp from '../assets/icons/skills/powerpoint.png';
 import office from '../assets/icons/skills/office-365.png';
 import drive from '../assets/icons/skills/google-drive.png';
 import analytics from '../assets/icons/skills/analytics.png';
@@ -88,7 +87,6 @@ function Skills(){
                     <img src={office} alt="office 365 logo"/>
                     <img src={word} alt="word logo"/>
                     <img src={excel} alt="excel logo"/>
-                    <img src={pp} alt="powerpoint logo"/>
                     <img src={outlook} alt="outlook logo"/>
                 </SkillsImgContainer>
             </SkillsCard>

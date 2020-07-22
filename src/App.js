@@ -2,7 +2,7 @@ import React from 'react';
 
 import gif from './assets/neon.gif';
 
-import { Nav, Gif } from './styles/index' 
+import { Nav, Gif, AppContainer } from './styles/index' 
 import { Route, Link, NavLink } from 'react-router-dom';
 import About from './components/about';
 import Projects from './components/projects';
@@ -11,7 +11,7 @@ import './App.css';
 
 function App() {
     return (
-    <div className="App">
+    <AppContainer className="App">
             <header className="App-header">
             <Nav>
 
@@ -53,8 +53,8 @@ function App() {
         <Route path="/projects" component={Projects} />
         <Route path="/skills" component={Skills} />
     </div>
-    </div>
-  );
+    </AppContainer>
+);
 }
 
 export default App;

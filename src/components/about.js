@@ -52,7 +52,7 @@ function Landing() {
             <h3>
                 Hello there!
             </h3>
-                <div>
+            <div>
                 <div className="content">
                 <p>
                 I am a highly design-oriented  Fullstack Web Developer (HTML, CSS, JavaScript, React, NodeJS) currently seeking new opportunities in the western United States. 
