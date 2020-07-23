@@ -268,6 +268,7 @@ export const ProjectCard = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 
     h3 {
         font-family: 'Permanent Marker', cursive;
