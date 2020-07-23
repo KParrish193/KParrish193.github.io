@@ -46,6 +46,10 @@ export const Nav = styled.div`
         }
     }
 
+    @media(max-width: 500px) {
+        padding: 1rem 0;
+    }
+
     a {
         width: 20%;
         text-decoration: none;
@@ -111,10 +115,10 @@ export const HeroContainer = styled.div`
 
 export const Scroll = styled.img`
     width: 100px;
-    opacity: 0.3;
+    opacity: 0.25;
 
     @media (max-width: 600px) {
-        display: none;
+        width: 80px;
     }
 `
 
@@ -122,7 +126,7 @@ export const ScrollDiv = styled.div`
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 100px;
+    height: 75px;
 `
 
 export const Contact = styled.div`
