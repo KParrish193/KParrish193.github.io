@@ -97,7 +97,7 @@ export const Gif = styled.img`
 export const HeroContainer = styled.div`
     background-image: url("${hero}");
     background-color: #7aa4c6;
-    height: 70vh;
+    height: 72vh;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -106,10 +106,6 @@ export const HeroContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-    @media (max-width: 700px){
-        height: 60vh;
-    }
 }
 `
 
