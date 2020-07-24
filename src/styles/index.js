@@ -141,9 +141,9 @@ export const Contact = styled.div`
     }
 
     div {
-        font-family: 'Permanent Marker', cursive;
+        font-family: 'Bebas Neue', cursive;
         font-size: 1.7rem;
-        letter-spacing: .12rem;
+        letter-spacing: .1rem;
         padding: .5rem 2rem;
         width: 100%;
 

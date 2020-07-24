@@ -226,7 +226,7 @@ function Projects(){
                 HTML | CSS | JavaScript | React | NodeJS | Strapi | Heroku | Stripe
                 </h4>
                 <h5>
-                Role: Fullstack Developer
+                Role: React II Developer
                 </h5>
                 <p>
                 A web app that recommends best-matched cannabis strains to users looking to move away from their dependency on pharmaceuticals
