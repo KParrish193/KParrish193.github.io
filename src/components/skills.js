@@ -75,19 +75,19 @@ function Skills(){
             </SkillsCard>
 
             <SkillsCard>
-                <h3>Python</h3>
-                <SkillsImgContainer>
-                    <img src={python} alt="python logo"/>
-                </SkillsImgContainer>
-            </SkillsCard>
-
-            <SkillsCard>
                 <h3>Microsoft Office Suite</h3>
                 <SkillsImgContainer>
                     <img src={office} alt="office 365 logo"/>
                     <img src={word} alt="word logo"/>
                     <img src={excel} alt="excel logo"/>
                     <img src={outlook} alt="outlook logo"/>
+                </SkillsImgContainer>
+            </SkillsCard>
+
+            <SkillsCard>
+                <h3>Python</h3>
+                <SkillsImgContainer>
+                    <img src={python} alt="python logo"/>
                 </SkillsImgContainer>
             </SkillsCard>
 
