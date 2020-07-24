@@ -60,7 +60,7 @@ function Landing() {
                 </p>
                 <p>
                 Emphasizing positive user experiences in front-end web design is where I do my best work. I don't believe an app or website should be considered "done" until all users can have a great experience with it.
-                Other experience includes a demonstrated history of customer service, attention to detail, and teamwork working in the retail industry.
+                Other experience includes a demonstrated history of customer service, attention to detail, and teamwork, working in the retail industry.
                 </p>
                 <p>
                 When I'm not coding aesthetically pleasing and design forward front-ends, I can be found mountain biking through the Uintas, climbing at the rock wall, on a calm lake paddleboarding with my pitbull, Tallahassee, cuddling my two cats, or hip checking my friends and foes at the Derby Depot in Salt Lake City, Utah.
