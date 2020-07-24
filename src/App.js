@@ -20,7 +20,7 @@ function App() {
                 </Link>
 
                 <NavLink 
-                    to="/kp/projects" 
+                    to="/projects" 
                     className="left"
                     activeStyle={{
                         fontWeight: "bold",
@@ -36,7 +36,7 @@ function App() {
                 </Link>  
 
                 <NavLink 
-                    to="/kp/skills" 
+                    to="/skills" 
                     className="right"
                     activeStyle={{
                         fontWeight: "bold",
@@ -49,9 +49,9 @@ function App() {
         </header>
 
     <div>
-        <Route exact path="/kp" component={About} />
-        <Route path="/kp/projects" component={Projects} />
-        <Route path="/kp/skills" component={Skills} />
+        <Route exact path="/" component={About} />
+        <Route path="/projects" component={Projects} />
+        <Route path="/skills" component={Skills} />
     </div>
     </AppContainer>
 );
