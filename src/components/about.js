@@ -63,7 +63,7 @@ function Landing() {
                 Other experience includes a demonstrated history of customer service, attention to detail, and teamwork, working in the retail industry.
                 </p>
                 <p>
-                When I'm not coding aesthetically pleasing and design forward front-ends, I can be found mountain biking through the Uintas, climbing at the rock wall, on a calm lake paddleboarding with my pitbull, Tallahassee, cuddling my two cats, or hip checking my friends and foes at the Derby Depot in Salt Lake City, Utah.
+                When I'm not coding aesthetically pleasing and design forward front-ends, I can be found mountain biking through the Uintas, climbing at the rock wall, on a calm lake paddleboarding with my pitbull, Tallahassee, cuddling my two cats, or hip-checking friends and foes with Wasatch Roller Derby in Salt Lake City, Utah.
                 </p>
                 </div>
                 <Medium src={medium} alt="photo of smiling person in a hat"/>
