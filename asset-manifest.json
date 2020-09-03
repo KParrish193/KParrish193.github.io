@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.98ae7ccb.chunk.css",
+    "main.js": "/static/js/main.701ba2d7.chunk.js",
+    "main.js.map": "/static/js/main.701ba2d7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.803e708b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.803e708b.js.map",
+    "static/js/2.2c5fe770.chunk.js": "/static/js/2.2c5fe770.chunk.js",
+    "static/js/2.2c5fe770.chunk.js.map": "/static/js/2.2c5fe770.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d312cfb9ca145ca8de6b80d31ff8ee39.js": "/precache-manifest.d312cfb9ca145ca8de6b80d31ff8ee39.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.98ae7ccb.chunk.css.map": "/static/css/main.98ae7ccb.chunk.css.map",
+    "static/js/2.2c5fe770.chunk.js.LICENSE.txt": "/static/js/2.2c5fe770.chunk.js.LICENSE.txt",
+    "static/media/High-Q.gif": "/static/media/High-Q.d63bb3ec.gif",
+    "static/media/Raheem.gif": "/static/media/Raheem.8594241c.gif",
+    "static/media/artxblmdark.gif": "/static/media/artxblmdark.22a0b8e8.gif",
+    "static/media/hero.jpg": "/static/media/hero.f388e197.jpg",
+    "static/media/medium.jpg": "/static/media/medium.ea1edbe2.jpg",
+    "static/media/neon.gif": "/static/media/neon.4bfc7815.gif",
+    "static/media/scroll.gif": "/static/media/scroll.ab17e00a.gif",
+    "static/media/wrd.jpg": "/static/media/wrd.769dd2ac.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.803e708b.js",
+    "static/js/2.2c5fe770.chunk.js",
+    "static/css/main.98ae7ccb.chunk.css",
+    "static/js/main.701ba2d7.chunk.js"
+  ]
+}
